@@ -51,7 +51,7 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Learning_Project.sln",
+    "dotnet.defaultSolution": "Learning_Project.slnx",
     "cSpell.words": [
         "Behaviour"
     ]
