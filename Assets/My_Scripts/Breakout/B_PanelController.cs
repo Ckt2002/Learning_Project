@@ -1,18 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Panel : MonoBehaviour
+public class B_PanelController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] float moveSpeed;
+    [SerializeField] float maxXPos;
+    [SerializeField] float minXPos;
+    Vector3 direction = Vector3.right.normalized;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        if (!Input.GetButton("Horizontal"))
+            return;
+
+        float input = Input.GetAxisRaw("Horizontal");
+
+        if (transform.position.x >= maxXPos && input == 1 ||
+            transform.position.x <= minXPos && input == -1)
+            return;
+
+        Vector3 currentDirection = input * direction;
+        transform.position += currentDirection * Time.deltaTime * moveSpeed;
     }
 }

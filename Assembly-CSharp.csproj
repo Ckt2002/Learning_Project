@@ -49,14 +49,17 @@
   <ItemGroup>
     <Compile Include="Assets/My_Scripts/Catch_The_Ball/CTB_PanelController.cs" />
     <Compile Include="Assets/My_Scripts/Breakout/B_PanelController.cs" />
+    <Compile Include="Assets/My_Scripts/Breakout/B_BallController.cs" />
     <Compile Include="Assets/My_Scripts/Catch_The_Ball/CTB_EdgeController.cs" />
     <Compile Include="Assets/My_Scripts/Catch_The_Ball/CTB_BallPooling.cs" />
     <Compile Include="Assets/My_Scripts/Catch_The_Ball/CTB_BallsController.cs" />
     <Compile Include="Assets/My_Scripts/Dark_3D/ObstaclesController.cs" />
+    <Compile Include="Assets/My_Scripts/Breakout/B_BrickPool.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/My_Scripts/Catch_The_Ball/CTB_GameController.cs" />
     <Compile Include="Assets/My_Scripts/Catch_The_Ball/CTB_UIScoreController.cs" />
     <Compile Include="Assets/My_Scripts/Catch_The_Ball/Interface/IUIController.cs" />
+    <Compile Include="Assets/My_Scripts/Breakout/B_GameController.cs" />
     <Compile Include="Assets/My_Scripts/Dark_3D/PlayerMovement.cs" />
     <Compile Include="Assets/My_Scripts/Collider_Physics/My_Collider.cs" />
     <Compile Include="Assets/My_Scripts/Collider_Physics/My_Physics.cs" />
