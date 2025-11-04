@@ -55,6 +55,7 @@
     <Compile Include="Assets/My_Scripts/Catch_The_Ball/CTB_BallsController.cs" />
     <Compile Include="Assets/My_Scripts/Dark_3D/ObstaclesController.cs" />
     <Compile Include="Assets/My_Scripts/Breakout/B_BrickPool.cs" />
+    <Compile Include="Assets/My_Scripts/Breakout/B_ScoreUI.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
     <Compile Include="Assets/My_Scripts/Catch_The_Ball/CTB_GameController.cs" />
     <Compile Include="Assets/My_Scripts/Catch_The_Ball/CTB_UIScoreController.cs" />

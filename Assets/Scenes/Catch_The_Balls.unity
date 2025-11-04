@@ -131,6 +131,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 172584489}
+  - component: {fileID: 172584490}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -155,6 +156,19 @@ Transform:
   - {fileID: 628955923}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &172584490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 172584488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32ce06a9f139db9f2a2c4be7e0473a24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  txtScore: {fileID: 196427481}
 --- !u!1 &196427479
 GameObject:
   m_ObjectHideFlags: 0
@@ -298,7 +312,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 280651752}
-  - component: {fileID: 280651753}
   m_Layer: 7
   m_Name: Edge
   m_TagString: Untagged
@@ -325,50 +338,6 @@ Transform:
   - {fileID: 590678384}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &280651753
-EdgeCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 280651751}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
-  m_Points:
-  - {x: 0.5108652, y: -4.99905}
-  - {x: 18.289997, y: -5.000209}
-  - {x: 18.289778, y: 4.999358}
-  - {x: 0.51038265, y: 4.9998994}
-  - {x: 0.5139828, y: -4.960116}
-  m_AdjacentStartPoint: {x: 0, y: 0}
-  m_AdjacentEndPoint: {x: 0, y: 0}
-  m_UseAdjacentStartPoint: 0
-  m_UseAdjacentEndPoint: 0
 --- !u!1 &301587482
 GameObject:
   m_ObjectHideFlags: 0
@@ -738,9 +707,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1113292482}
   - component: {fileID: 1113292481}
-  - component: {fileID: 1113292486}
-  - component: {fileID: 1113292484}
   - component: {fileID: 1113292487}
+  - component: {fileID: 1113292484}
   m_Layer: 3
   m_Name: Panel
   m_TagString: Untagged
@@ -831,51 +799,6 @@ MonoBehaviour:
   moveSpeed: 10
   maxXPos: 7.3
   minXPos: -7.3
---- !u!61 &1113292486
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1113292480}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!60 &1113292487
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -920,8 +843,10 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.12780198, y: 0.5095379}
+    - - {x: 0.37248966, y: 0.29792666}
+      - {x: 0.12780198, y: 0.5095379}
       - {x: -0.121820524, y: 0.50238216}
+      - {x: -0.36611435, y: 0.27423817}
       - {x: -0.50069916, y: -0.027444698}
       - {x: -0.5, y: -0.5}
       - {x: 0.5, y: -0.5}
@@ -939,7 +864,6 @@ GameObject:
   - component: {fileID: 1218850315}
   - component: {fileID: 1218850314}
   - component: {fileID: 1218850313}
-  - component: {fileID: 1218850316}
   m_Layer: 5
   m_Name: ScoreUI
   m_TagString: Untagged
@@ -1030,19 +954,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!114 &1218850316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1218850311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8df613db065ac34fdacedac92fa2a5ab, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scoreText: {fileID: 196427481}
 --- !u!1 &1559571821
 GameObject:
   m_ObjectHideFlags: 0
@@ -1131,6 +1042,7 @@ GameObject:
   - component: {fileID: 1697359931}
   - component: {fileID: 1697359933}
   - component: {fileID: 1697359932}
+  - component: {fileID: 1697359934}
   m_Layer: 0
   m_Name: Game Controller
   m_TagString: Untagged
@@ -1174,6 +1086,18 @@ MonoBehaviour:
   spawnNumberY: 4
   bricksParent: {fileID: 1764310127}
 --- !u!114 &1697359933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697359930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 088ca87150396c5bd8c15ef7d6b5d917, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1697359934
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1298,7 +1222,7 @@ Transform:
   m_GameObject: {fileID: 1836274782}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.28, z: 0}
+  m_LocalPosition: {x: 0, y: -3.248, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 1
   m_Children: []
