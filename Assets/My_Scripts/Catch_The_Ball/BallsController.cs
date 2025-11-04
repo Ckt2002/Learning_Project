@@ -50,4 +50,9 @@ public class BallsController : MonoBehaviour
         gottenBalls.Remove(ball);
         ballPooling.ReturnBall(ball);
     }
+
+    public void IncreaseMoveSpeed()
+    {
+        ballMoveSpeed += 0.5f;
+    }
 }

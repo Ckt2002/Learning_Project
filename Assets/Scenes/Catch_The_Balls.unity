@@ -981,6 +981,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uIScore: {fileID: 1218850316}
+  spawnTimeATurn: 0.5
+  waitTimeATurn: 3
 --- !u!1 &1764310126
 GameObject:
   m_ObjectHideFlags: 0

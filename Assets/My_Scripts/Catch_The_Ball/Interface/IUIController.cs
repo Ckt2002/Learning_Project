@@ -1,4 +1,4 @@
 public interface IUIController<T>
 {
-    public void UpdateUI(T value);
+    void UpdateUI(T value);
 }

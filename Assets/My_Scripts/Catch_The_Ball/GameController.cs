@@ -6,6 +6,8 @@ public class GameController : MonoBehaviour
     public static GameController instance;
 
     [SerializeField] UIScoreController uIScore;
+    [SerializeField] float spawnTimeATurn = 0.2f;
+    [SerializeField] float waitTimeATurn = 3f;
 
     int spawnNumber = 1;
     int currentScore = 0;
@@ -14,9 +16,7 @@ public class GameController : MonoBehaviour
     private void Awake()
     {
         if (instance == null)
-        {
             instance = this;
-        }
         else
             Destroy(this);
     }
@@ -31,12 +31,19 @@ public class GameController : MonoBehaviour
     {
         while (true)
         {
+            if (currentScore > 0 && currentScore % 10 == 0)
+            {
+                spawnNumber++;
+                ballsController.IncreaseMoveSpeed();
+            }
+
             for (int i = 0; i < spawnNumber; i++)
             {
                 ballsController.SpawnBall();
-                yield return new WaitForSeconds(0.2f);
+                yield return new WaitForSeconds(spawnTimeATurn);
             }
-            yield return new WaitForSeconds(3f);
+
+            yield return new WaitForSeconds(waitTimeATurn);
         }
     }
 
