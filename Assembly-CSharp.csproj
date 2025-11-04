@@ -47,16 +47,17 @@
     <Analyzer Include="/home/toan/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/My_Scripts/Catch_The_Ball/GameController.cs" />
+    <Compile Include="Assets/My_Scripts/Catch_The_Ball/CTB_PanelController.cs" />
+    <Compile Include="Assets/My_Scripts/Breakout/B_PanelController.cs" />
+    <Compile Include="Assets/My_Scripts/Catch_The_Ball/CTB_EdgeController.cs" />
+    <Compile Include="Assets/My_Scripts/Catch_The_Ball/CTB_BallPooling.cs" />
+    <Compile Include="Assets/My_Scripts/Catch_The_Ball/CTB_BallsController.cs" />
     <Compile Include="Assets/My_Scripts/Dark_3D/ObstaclesController.cs" />
     <Compile Include="Assets/TutorialInfo/Scripts/Readme.cs" />
-    <Compile Include="Assets/My_Scripts/Catch_The_Ball/PanelController.cs" />
-    <Compile Include="Assets/My_Scripts/Catch_The_Ball/BallsController.cs" />
+    <Compile Include="Assets/My_Scripts/Catch_The_Ball/CTB_GameController.cs" />
+    <Compile Include="Assets/My_Scripts/Catch_The_Ball/CTB_UIScoreController.cs" />
     <Compile Include="Assets/My_Scripts/Catch_The_Ball/Interface/IUIController.cs" />
-    <Compile Include="Assets/My_Scripts/Catch_The_Ball/BallPooling.cs" />
     <Compile Include="Assets/My_Scripts/Dark_3D/PlayerMovement.cs" />
-    <Compile Include="Assets/My_Scripts/Catch_The_Ball/EdgeController.cs" />
-    <Compile Include="Assets/My_Scripts/Catch_The_Ball/UIScoreController.cs" />
     <Compile Include="Assets/My_Scripts/Collider_Physics/My_Collider.cs" />
     <Compile Include="Assets/My_Scripts/Collider_Physics/My_Physics.cs" />
   </ItemGroup>

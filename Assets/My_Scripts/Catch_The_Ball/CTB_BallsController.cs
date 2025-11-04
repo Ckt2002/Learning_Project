@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BallsController : MonoBehaviour
+public class CTB_BallsController : MonoBehaviour
 {
-    public static BallsController instance;
+    public static CTB_BallsController instance;
 
     [SerializeField] float ballMoveSpeed;
     [SerializeField] float fromXPos;
@@ -11,7 +11,7 @@ public class BallsController : MonoBehaviour
 
     Vector3 direction;
     List<GameObject> gottenBalls;
-    BallPooling ballPooling;
+    CTB_BallPooling ballPooling;
 
     private void Awake()
     {
@@ -27,7 +27,7 @@ public class BallsController : MonoBehaviour
 
     private void Start()
     {
-        ballPooling = BallPooling.instance;
+        ballPooling = CTB_BallPooling.instance;
     }
 
     void Update()

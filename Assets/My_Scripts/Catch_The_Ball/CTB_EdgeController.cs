@@ -1,14 +1,14 @@
 using UnityEngine;
 
-public class EdgeController : MonoBehaviour
+public class CTB_EdgeController : MonoBehaviour
 {
-    BallPooling ballPooling;
-    BallsController ballsController;
+    CTB_BallPooling ballPooling;
+    CTB_BallsController ballsController;
 
     private void Start()
     {
-        ballPooling = BallPooling.instance;
-        ballsController = BallsController.instance;
+        ballPooling = CTB_BallPooling.instance;
+        ballsController = CTB_BallsController.instance;
     }
 
     void OnTriggerEnter2D(Collider2D collision)

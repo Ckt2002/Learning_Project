@@ -1,17 +1,17 @@
 using System.Collections;
 using UnityEngine;
 
-public class GameController : MonoBehaviour
+public class CTB_GameController : MonoBehaviour
 {
-    public static GameController instance;
+    public static CTB_GameController instance;
 
-    [SerializeField] UIScoreController uIScore;
+    [SerializeField] CTB_UIScoreController uIScore;
     [SerializeField] float spawnTimeATurn = 0.2f;
     [SerializeField] float waitTimeATurn = 3f;
 
     int spawnNumber = 1;
     int currentScore = 0;
-    BallsController ballsController;
+    CTB_BallsController ballsController;
 
     private void Awake()
     {
@@ -23,7 +23,7 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
-        ballsController = BallsController.instance;
+        ballsController = CTB_BallsController.instance;
         StartCoroutine(SpawnBall());
     }
 

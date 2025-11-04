@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BallPooling : MonoBehaviour
+public class CTB_BallPooling : MonoBehaviour
 {
-    public static BallPooling instance;
+    public static CTB_BallPooling instance;
 
     [SerializeField] GameObject ballPrefab;
     [SerializeField] int spawnNumber = 10;

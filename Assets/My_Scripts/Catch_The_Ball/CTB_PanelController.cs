@@ -2,24 +2,24 @@ using System;
 using UnityEngine;
 
 [Serializable]
-public struct PanelData
+public struct CTB_PanelData
 {
     public float moveSpeed;
     public float maxXPos;
     public float minXPos;
 }
 
-public class PanelController : MonoBehaviour
+public class CTB_PanelController : MonoBehaviour
 {
-    [SerializeField] PanelData panelData;
+    [SerializeField] CTB_PanelData panelData;
     Vector3 direction = Vector3.right.normalized;
-    BallsController ballsController;
-    GameController gameController;
+    CTB_BallsController ballsController;
+    CTB_GameController gameController;
 
     private void Start()
     {
-        ballsController = BallsController.instance;
-        gameController = GameController.instance;
+        ballsController = CTB_BallsController.instance;
+        gameController = CTB_GameController.instance;
     }
 
     private void Update()

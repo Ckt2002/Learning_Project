@@ -912,6 +912,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1697359931}
+  - component: {fileID: 1697359934}
+  - component: {fileID: 1697359933}
+  - component: {fileID: 1697359932}
   m_Layer: 0
   m_Name: Game Controller
   m_TagString: Untagged
@@ -934,6 +937,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1697359932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697359930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2ef5e8ec763c8eb6bb8107f0ec72f47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballMoveSpeed: 5
+  fromXPos: -7.1
+  toXPos: 7.1
+--- !u!114 &1697359933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697359930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8e123b01711cc658b706795b002907, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballPrefab: {fileID: 2340551416140015019, guid: 5b84e52e5256408a18a9392715c1be22,
+    type: 3}
+  spawnNumber: 2
+  ballParent: {fileID: 1764310127}
+--- !u!114 &1697359934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697359930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c18c53d0fc5c1f94aab554957367c5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uIScore: {fileID: 1218850316}
+  spawnTimeATurn: 0.5
+  waitTimeATurn: 3
 --- !u!1 &1764310126
 GameObject:
   m_ObjectHideFlags: 0
@@ -944,7 +993,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1764310127}
   m_Layer: 0
-  m_Name: Brick Parent
+  m_Name: BallParent
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
