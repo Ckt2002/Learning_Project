@@ -3,12 +3,14 @@ using UnityEngine;
 
 public class ER3D_PlanesController : MonoBehaviour
 {
+    // new spawn pos = last pos + (last length size + new length size)/2
+
     [SerializeField] List<GameObject> planes;
     [SerializeField] float distanceToReset = 6;
     [SerializeField] float planeOffsetMultiply = 10;
     [SerializeField] float planesMoveSpeed;
-    [SerializeField] float planesRotateSpeed;
 
+    Quaternion targetRotation;
     Transform player;
 
     private void Start()
@@ -19,6 +21,7 @@ public class ER3D_PlanesController : MonoBehaviour
     private void Update()
     {
         int index = 0;
+
         while (index < planes.Count)
         {
             Transform plane = planes[index].transform;
@@ -39,5 +42,7 @@ public class ER3D_PlanesController : MonoBehaviour
 
             plane.transform.position += Vector3.back * planesMoveSpeed * Time.deltaTime;
         }
+
+
     }
 }
