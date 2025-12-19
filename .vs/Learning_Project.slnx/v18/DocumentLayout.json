@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\toan\\Desktop\\Dev\\Unity\\Learning_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\toan\\desktop\\dev\\unity\\learning_project\\assets\\my_scripts\\cs\\cs_designpattern\\observer\\cs_obplayerchangeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\my_scripts\\cs\\cs_designpattern\\observer\\cs_obplayerchangeevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\toan\\desktop\\dev\\unity\\learning_project\\assets\\my_scripts\\cs\\cs_designpattern\\observer\\cs_obglobalevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\my_scripts\\cs\\cs_designpattern\\observer\\cs_obglobalevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\toan\\desktop\\dev\\unity\\learning_project\\assets\\my_scripts\\cs\\cs_designpattern\\state\\cs_playerbasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\my_scripts\\cs\\cs_designpattern\\state\\cs_playerbasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CS_ObGlobalEvent.cs",
-              "DocumentMoniker": "C:\\Users\\toan\\Desktop\\Dev\\Unity\\Learning_Project\\Assets\\My_Scripts\\CS\\CS_DesignPattern\\Observer\\CS_ObGlobalEvent.cs",
-              "RelativeDocumentMoniker": "Assets\\My_Scripts\\CS\\CS_DesignPattern\\Observer\\CS_ObGlobalEvent.cs",
-              "ToolTip": "C:\\Users\\toan\\Desktop\\Dev\\Unity\\Learning_Project\\Assets\\My_Scripts\\CS\\CS_DesignPattern\\Observer\\CS_ObGlobalEvent.cs",
-              "RelativeToolTip": "Assets\\My_Scripts\\CS\\CS_DesignPattern\\Observer\\CS_ObGlobalEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T03:29:15.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CS_ObPlayerChangeEvent.cs",
-              "DocumentMoniker": "C:\\Users\\toan\\Desktop\\Dev\\Unity\\Learning_Project\\Assets\\My_Scripts\\CS\\CS_DesignPattern\\Observer\\CS_ObPlayerChangeEvent.cs",
-              "RelativeDocumentMoniker": "Assets\\My_Scripts\\CS\\CS_DesignPattern\\Observer\\CS_ObPlayerChangeEvent.cs",
-              "ToolTip": "C:\\Users\\toan\\Desktop\\Dev\\Unity\\Learning_Project\\Assets\\My_Scripts\\CS\\CS_DesignPattern\\Observer\\CS_ObPlayerChangeEvent.cs",
-              "RelativeToolTip": "Assets\\My_Scripts\\CS\\CS_DesignPattern\\Observer\\CS_ObPlayerChangeEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABBAAAAAAAAAA==",
+              "Title": "CS_PlayerBaseState.cs",
+              "DocumentMoniker": "C:\\Users\\toan\\Desktop\\Dev\\Unity\\Learning_Project\\Assets\\My_Scripts\\CS\\CS_DesignPattern\\State\\CS_PlayerBaseState.cs",
+              "RelativeDocumentMoniker": "Assets\\My_Scripts\\CS\\CS_DesignPattern\\State\\CS_PlayerBaseState.cs",
+              "ToolTip": "C:\\Users\\toan\\Desktop\\Dev\\Unity\\Learning_Project\\Assets\\My_Scripts\\CS\\CS_DesignPattern\\State\\CS_PlayerBaseState.cs",
+              "RelativeToolTip": "Assets\\My_Scripts\\CS\\CS_DesignPattern\\State\\CS_PlayerBaseState.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T03:28:52.389Z",
+              "WhenOpened": "2025-12-19T09:34:17.614Z",
               "EditorCaption": ""
             }
           ]
