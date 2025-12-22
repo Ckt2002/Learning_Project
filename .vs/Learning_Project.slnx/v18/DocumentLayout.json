@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\toan\\Desktop\\Dev\\Unity\\Learning_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\toan\\desktop\\dev\\unity\\learning_project\\assets\\my_scripts\\cs\\cs_designpattern\\state\\cs_playerbasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\my_scripts\\cs\\cs_designpattern\\state\\cs_playerbasestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\toan\\desktop\\dev\\unity\\learning_project\\assets\\my_scripts\\cs\\cs_designpattern\\factory\\cs_fenemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\my_scripts\\cs\\cs_designpattern\\factory\\cs_fenemyspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\toan\\desktop\\dev\\unity\\learning_project\\assets\\my_scripts\\cs\\cs_designpattern\\factory\\cs_fgoblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\my_scripts\\cs\\cs_designpattern\\factory\\cs_fgoblin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\toan\\desktop\\dev\\unity\\learning_project\\assets\\my_scripts\\cs\\cs_designpattern\\factory\\cs_fogre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\my_scripts\\cs\\cs_designpattern\\factory\\cs_fogre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CS_PlayerBaseState.cs",
-              "DocumentMoniker": "C:\\Users\\toan\\Desktop\\Dev\\Unity\\Learning_Project\\Assets\\My_Scripts\\CS\\CS_DesignPattern\\State\\CS_PlayerBaseState.cs",
-              "RelativeDocumentMoniker": "Assets\\My_Scripts\\CS\\CS_DesignPattern\\State\\CS_PlayerBaseState.cs",
-              "ToolTip": "C:\\Users\\toan\\Desktop\\Dev\\Unity\\Learning_Project\\Assets\\My_Scripts\\CS\\CS_DesignPattern\\State\\CS_PlayerBaseState.cs",
-              "RelativeToolTip": "Assets\\My_Scripts\\CS\\CS_DesignPattern\\State\\CS_PlayerBaseState.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CS_FOgre.cs",
+              "DocumentMoniker": "C:\\Users\\toan\\Desktop\\Dev\\Unity\\Learning_Project\\Assets\\My_Scripts\\CS\\CS_DesignPattern\\Factory\\CS_FOgre.cs",
+              "RelativeDocumentMoniker": "Assets\\My_Scripts\\CS\\CS_DesignPattern\\Factory\\CS_FOgre.cs",
+              "ToolTip": "C:\\Users\\toan\\Desktop\\Dev\\Unity\\Learning_Project\\Assets\\My_Scripts\\CS\\CS_DesignPattern\\Factory\\CS_FOgre.cs",
+              "RelativeToolTip": "Assets\\My_Scripts\\CS\\CS_DesignPattern\\Factory\\CS_FOgre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-19T09:34:17.614Z",
+              "WhenOpened": "2025-12-22T10:04:15.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CS_FGoblin.cs",
+              "DocumentMoniker": "C:\\Users\\toan\\Desktop\\Dev\\Unity\\Learning_Project\\Assets\\My_Scripts\\CS\\CS_DesignPattern\\Factory\\CS_FGoblin.cs",
+              "RelativeDocumentMoniker": "Assets\\My_Scripts\\CS\\CS_DesignPattern\\Factory\\CS_FGoblin.cs",
+              "ToolTip": "C:\\Users\\toan\\Desktop\\Dev\\Unity\\Learning_Project\\Assets\\My_Scripts\\CS\\CS_DesignPattern\\Factory\\CS_FGoblin.cs",
+              "RelativeToolTip": "Assets\\My_Scripts\\CS\\CS_DesignPattern\\Factory\\CS_FGoblin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T10:03:40.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CS_FEnemySpawner.cs",
+              "DocumentMoniker": "C:\\Users\\toan\\Desktop\\Dev\\Unity\\Learning_Project\\Assets\\My_Scripts\\CS\\CS_DesignPattern\\Factory\\CS_FEnemySpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\My_Scripts\\CS\\CS_DesignPattern\\Factory\\CS_FEnemySpawner.cs",
+              "ToolTip": "C:\\Users\\toan\\Desktop\\Dev\\Unity\\Learning_Project\\Assets\\My_Scripts\\CS\\CS_DesignPattern\\Factory\\CS_FEnemySpawner.cs",
+              "RelativeToolTip": "Assets\\My_Scripts\\CS\\CS_DesignPattern\\Factory\\CS_FEnemySpawner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T09:52:13.003Z",
               "EditorCaption": ""
             }
           ]
