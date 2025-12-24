@@ -47,6 +47,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.62f2\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\Command\CS_CPlayerInputHandler.cs" />
     <Compile Include="Assets\My_Scripts\Catch_The_Ball\CTB_PanelController.cs" />
     <Compile Include="Assets\My_Scripts\Breakout\B_PanelController.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\State\AirborneState\CS_JumpState.cs" />
@@ -61,6 +62,7 @@
     <Compile Include="Assets\My_Scripts\Breakout\B_ScoreUI.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\State\GroundedState\CS_AttackState.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\Observer\CS_ObPlayerUI.cs" />
+    <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\Strategy\CS_IMoveStrategy.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\Factory\CS_FOgreCreator.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\State\CS_IPlayerState.cs" />
@@ -69,26 +71,31 @@
     <Compile Include="Assets\My_Scripts\Endless_Runner_2D\ER2D_GroundsController.cs" />
     <Compile Include="Assets\My_Scripts\Catch_The_Ball\CTB_GameController.cs" />
     <Compile Include="Assets\My_Scripts\Catch_The_Ball\CTB_UIScoreController.cs" />
+    <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\Strategy\CS_SPlayer.cs" />
     <Compile Include="Assets\My_Scripts\Endless_Runner_3D\ER3D_PlanesController.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\State\CS_StatePlayer.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_Task\CS_CalculatePosTask.cs" />
-    <Compile Include="Assets\My_Scripts\CS\CS_Task\CS_Task.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\Factory\CS_AFEnemyCreator.cs" />
+    <Compile Include="Assets\My_Scripts\CS\CS_Task\CS_Task.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\Factory\CS_FEnemySpawner.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\Factory\CS_FGoblin.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\Factory\CS_IFEnemy.cs" />
     <Compile Include="Assets\My_Scripts\Catch_The_Ball\Interface\IUIController.cs" />
+    <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\Strategy\CS_SMove.cs" />
     <Compile Include="Assets\My_Scripts\Endless_Runner_3D\ER3D_PlayerController.cs" />
     <Compile Include="Assets\My_Scripts\Endless_Runner_2D\ER2D_GroundPooling.cs" />
     <Compile Include="Assets\My_Scripts\Breakout\B_GameController.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\State\GroundedState\CS_PlayerGroundedState.cs" />
+    <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\Command\CS_CInvoker.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\Observer\CS_ObEChangeType.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\Factory\CS_FEnemyPooling.cs" />
+    <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\Command\CS_ICommand.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\Factory\CS_FGoblinCreator.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_Task\CS_MultiTask.cs" />
     <Compile Include="Assets\My_Scripts\Dark_3D\PlayerMovement.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\Observer\CS_ObGlobalEvent.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\Observer\CS_ObPlayer.cs" />
+    <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\Command\CS_CMove.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_Task\CS_TaskCancellation.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\State\CS_PlayerBaseState.cs" />
     <Compile Include="Assets\My_Scripts\CS\CS_DesignPattern\Observer\CS_IUIListener.cs" />

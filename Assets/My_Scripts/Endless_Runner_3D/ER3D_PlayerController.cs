@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class ER3D_PlayerController : MonoBehaviour
 {
-    [SerializeField] Rigidbody rb;
+    //[SerializeField] Rigidbody rb;
     [SerializeField] float jumpForce = 5;
     [SerializeField] float rotateSpeed;
 
-    bool isJumping = false;
+    //bool isJumping = false;
     Quaternion targetRotate;
 
     private void Start()
